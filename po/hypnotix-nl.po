@@ -7,264 +7,480 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2020-12-01 12:07+0000\n"
-"PO-Revision-Date: 2020-12-02 09:55+0000\n"
+"POT-Creation-Date: 2023-11-29 13:21+0000\n"
+"PO-Revision-Date: 2023-11-29 18:56+0000\n"
 "Last-Translator: Pjotr12345 <Unknown>\n"
 "Language-Team: Dutch <nl@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2021-01-02 14:19+0000\n"
-"X-Generator: Launchpad (build 34b3ffd45c9543b7f7aa5aa313925241e9e7ca3f)\n"
+"X-Launchpad-Export-Date: 2024-01-04 14:59+0000\n"
+"X-Generator: Launchpad (build e1eeab5b20e19239bd7d5f36676f7a52988db88b)\n"
 
-#: usr/lib/hypnotix/hypnotix.py:94 usr/lib/hypnotix/hypnotix.py:577
-#: usr/lib/hypnotix/hypnotix.py:931 generate_desktop_files:24
-#: usr/share/hypnotix/hypnotix.ui.h:1
+#: usr/lib/hypnotix/hypnotix.py:157 usr/lib/hypnotix/hypnotix.py:867
+#: usr/lib/hypnotix/hypnotix.py:1476 generate_desktop_files:25
+#: usr/share/hypnotix/hypnotix.ui.h:41
 msgid "Hypnotix"
 msgstr "Hypnotix"
 
-#: usr/lib/hypnotix/hypnotix.py:190
+#: usr/lib/hypnotix/hypnotix.py:364 usr/share/hypnotix/shortcuts.ui.h:7
 msgid "Keyboard Shortcuts"
 msgstr "Sneltoetsen"
 
-#: usr/lib/hypnotix/hypnotix.py:197 usr/lib/hypnotix/hypnotix.py:930
+#: usr/lib/hypnotix/hypnotix.py:371 usr/share/hypnotix/hypnotix.ui.h:51
+#: usr/share/hypnotix/shortcuts.ui.h:3
+msgid "Stream Information"
+msgstr "Stroominformatie"
+
+#: usr/lib/hypnotix/hypnotix.py:379 usr/lib/hypnotix/hypnotix.py:1475
+#: usr/share/hypnotix/shortcuts.ui.h:2
 msgid "About"
 msgstr "Over"
 
-#: usr/lib/hypnotix/hypnotix.py:202
+#: usr/lib/hypnotix/hypnotix.py:384 usr/share/hypnotix/shortcuts.ui.h:9
 msgid "Quit"
 msgstr "Afsluiten"
 
-#: usr/lib/hypnotix/hypnotix.py:215
+#: usr/lib/hypnotix/hypnotix.py:397
 msgid "M3U URL"
 msgstr "M3U webadres"
 
-#: usr/lib/hypnotix/hypnotix.py:216
+#: usr/lib/hypnotix/hypnotix.py:398
 msgid "Local M3U File"
 msgstr "Plaatselijk M3U-bestand"
 
-#: usr/lib/hypnotix/hypnotix.py:217
+#: usr/lib/hypnotix/hypnotix.py:399
 msgid "Xtream API"
 msgstr "Xtream API"
 
-#: usr/lib/hypnotix/hypnotix.py:383
+#: usr/lib/hypnotix/hypnotix.py:611
 #, python-format
 msgid "Season %s"
 msgstr "Seizoen %s"
 
-#: usr/lib/hypnotix/hypnotix.py:393
+#: usr/lib/hypnotix/hypnotix.py:622
 #, python-format
 msgid "Episode %s"
 msgstr "Aflevering %s"
 
-#: usr/lib/hypnotix/hypnotix.py:483
+#: usr/lib/hypnotix/hypnotix.py:748
+msgid "No channels found"
+msgstr "Geen kanalen gevonden"
+
+#: usr/lib/hypnotix/hypnotix.py:774
 msgid "No provider selected"
 msgstr "Geen aanbieder gekozen"
 
-#: usr/lib/hypnotix/hypnotix.py:505 usr/lib/hypnotix/hypnotix.py:517
+#: usr/lib/hypnotix/hypnotix.py:775 usr/lib/hypnotix/hypnotix.py:783
+#, python-format
+msgid "TV Channels (%d)"
+msgstr "TV-kanalen (%d)"
+
+#: usr/lib/hypnotix/hypnotix.py:776 usr/lib/hypnotix/hypnotix.py:784
+#, python-format
+msgid "Movies (%d)"
+msgstr "Films (%d)"
+
+#: usr/lib/hypnotix/hypnotix.py:777 usr/lib/hypnotix/hypnotix.py:785
+#, python-format
+msgid "Series (%d)"
+msgstr "Series (%d)"
+
+#: usr/lib/hypnotix/hypnotix.py:793 usr/lib/hypnotix/hypnotix.py:808
 msgid "TV Channels"
 msgstr "TV-kanalen"
 
-#: usr/lib/hypnotix/hypnotix.py:507 usr/lib/hypnotix/hypnotix.py:532
+#: usr/lib/hypnotix/hypnotix.py:795 usr/lib/hypnotix/hypnotix.py:822
 msgid "Movies"
 msgstr "Films"
 
-#: usr/lib/hypnotix/hypnotix.py:509 usr/lib/hypnotix/hypnotix.py:539
+#: usr/lib/hypnotix/hypnotix.py:797 usr/lib/hypnotix/hypnotix.py:828
 msgid "Series"
 msgstr "Series"
 
-#: usr/lib/hypnotix/hypnotix.py:520
+#: usr/lib/hypnotix/hypnotix.py:803 usr/share/hypnotix/hypnotix.ui.h:2
+msgid "Favorites"
+msgstr "Favorieten"
+
+#: usr/lib/hypnotix/hypnotix.py:811
 #, python-format
 msgid "TV Channels > %s"
 msgstr "TV-kanalen > %s"
 
-#: usr/lib/hypnotix/hypnotix.py:535
+#: usr/lib/hypnotix/hypnotix.py:825
 #, python-format
 msgid "Movies > %s"
 msgstr "Films > %s"
 
-#: usr/lib/hypnotix/hypnotix.py:542
+#: usr/lib/hypnotix/hypnotix.py:831
 #, python-format
 msgid "Series > %s"
 msgstr "Series > %s"
 
-#: usr/lib/hypnotix/hypnotix.py:550 usr/share/hypnotix/hypnotix.ui.h:5
+#: usr/lib/hypnotix/hypnotix.py:838
+msgid "New Channel"
+msgstr "Nieuw kanaal"
+
+#: usr/lib/hypnotix/hypnotix.py:841 usr/share/hypnotix/hypnotix.ui.h:3
 msgid "Preferences"
 msgstr "Voorkeuren"
 
-#: usr/lib/hypnotix/hypnotix.py:554 usr/share/hypnotix/hypnotix.ui.h:4
+#: usr/lib/hypnotix/hypnotix.py:844 usr/share/hypnotix/hypnotix.ui.h:4
 msgid "Providers"
 msgstr "Aanbieders"
 
-#: usr/lib/hypnotix/hypnotix.py:559
+#: usr/lib/hypnotix/hypnotix.py:849
 #, python-format
 msgid "Edit %s"
 msgstr "%s bewerken"
 
-#: usr/lib/hypnotix/hypnotix.py:561
+#: usr/lib/hypnotix/hypnotix.py:851
 msgid "Add a new provider"
 msgstr "Voeg een nieuwe aanbieder toe"
 
-#: usr/lib/hypnotix/hypnotix.py:565
+#: usr/lib/hypnotix/hypnotix.py:855
 #, python-format
 msgid "Delete %s"
 msgstr "Verwijder %s"
 
-#: usr/lib/hypnotix/hypnotix.py:569
+#: usr/lib/hypnotix/hypnotix.py:859
 msgid "Reset providers"
 msgstr "Aanbieders terugzetten op standaard"
 
-#: usr/lib/hypnotix/hypnotix.py:697
+#: usr/lib/hypnotix/hypnotix.py:915 usr/lib/hypnotix/hypnotix.py:919
+#: usr/lib/hypnotix/hypnotix.py:984 usr/lib/hypnotix/hypnotix.py:986
+#: usr/lib/hypnotix/hypnotix.py:993 usr/lib/hypnotix/hypnotix.py:996
+#: usr/lib/hypnotix/hypnotix.py:1008 usr/lib/hypnotix/hypnotix.py:1021
+#: usr/lib/hypnotix/hypnotix.py:1026 usr/lib/hypnotix/hypnotix.py:1034
+#: usr/lib/hypnotix/hypnotix.py:1427 usr/lib/hypnotix/hypnotix.py:1429
+#: usr/lib/hypnotix/hypnotix.py:1455 usr/lib/hypnotix/hypnotix.py:1459
+#: usr/share/hypnotix/hypnotix.ui.h:45
+msgid "General"
+msgstr "Algemeen"
+
+#: usr/lib/hypnotix/hypnotix.py:916 usr/lib/hypnotix/hypnotix.py:998
+#: usr/lib/hypnotix/hypnotix.py:1000 usr/lib/hypnotix/hypnotix.py:1002
+#: usr/lib/hypnotix/hypnotix.py:1428 usr/share/hypnotix/hypnotix.ui.h:47
+msgid "Color"
+msgstr "Kleur"
+
+#: usr/lib/hypnotix/hypnotix.py:920 usr/lib/hypnotix/hypnotix.py:1018
+#: usr/lib/hypnotix/hypnotix.py:1028 usr/lib/hypnotix/hypnotix.py:1430
+#: usr/share/hypnotix/hypnotix.ui.h:49
+msgid "Layout"
+msgstr "Vormgeving"
+
+#: usr/lib/hypnotix/hypnotix.py:933
+msgid "Remove from favorites"
+msgstr "Uit favorieten verwijderen"
+
+#: usr/lib/hypnotix/hypnotix.py:936
+msgid "Add to favorites"
+msgstr "Toevoegen aan favorieten"
+
+#: usr/lib/hypnotix/hypnotix.py:969 usr/lib/hypnotix/hypnotix.py:970
+#: usr/lib/hypnotix/hypnotix.py:984 usr/lib/hypnotix/hypnotix.py:986
+#: usr/lib/hypnotix/hypnotix.py:1451 usr/lib/hypnotix/hypnotix.py:1452
+#: usr/lib/hypnotix/hypnotix.py:1455 usr/lib/hypnotix/hypnotix.py:1459
+#: usr/share/hypnotix/hypnotix.ui.h:46
+msgid "Average Bitrate"
+msgstr "Gemiddelde bitrate"
+
+#: usr/lib/hypnotix/hypnotix.py:993
+msgid "Dimensions"
+msgstr "Afmetingen"
+
+#: usr/lib/hypnotix/hypnotix.py:996
+msgid "Aspect"
+msgstr "Verhouding"
+
+#: usr/lib/hypnotix/hypnotix.py:998
+msgid "Pixel Format"
+msgstr "Beeldpuntopmaak"
+
+#: usr/lib/hypnotix/hypnotix.py:1000
+msgid "Gamma"
+msgstr "Gamma"
+
+#: usr/lib/hypnotix/hypnotix.py:1002
+msgid "Bits Per Pixel"
+msgstr "Bits per beeldpunt"
+
+#: usr/lib/hypnotix/hypnotix.py:1008 usr/lib/hypnotix/hypnotix.py:1034
+msgid "Codec"
+msgstr "Codec"
+
+#: usr/lib/hypnotix/hypnotix.py:1017
+msgid "surround sound"
+msgstr "surroundgeluid"
+
+#: usr/lib/hypnotix/hypnotix.py:1018
+msgid "Channels"
+msgstr "Kanalen"
+
+#: usr/lib/hypnotix/hypnotix.py:1021
+msgid "Sample Rate"
+msgstr "Bemonsteringsfrequentie"
+
+#: usr/lib/hypnotix/hypnotix.py:1026
+msgid "Format"
+msgstr "Bestandstype"
+
+#: usr/lib/hypnotix/hypnotix.py:1028
+msgid "Channel Count"
+msgstr "Kanaaltelling"
+
+#: usr/lib/hypnotix/hypnotix.py:1122
 #, python-format
 msgid "%d TV channel"
 msgid_plural "%d TV channels"
 msgstr[0] "%d TV-kanaal"
 msgstr[1] "%d TV-kanalen"
 
-#: usr/lib/hypnotix/hypnotix.py:702
+#: usr/lib/hypnotix/hypnotix.py:1127
 #, python-format
 msgid "%d movie"
 msgid_plural "%d movies"
 msgstr[0] "%d film"
 msgstr[1] "%d films"
 
-#: usr/lib/hypnotix/hypnotix.py:707
+#: usr/lib/hypnotix/hypnotix.py:1132
 #, python-format
 msgid "%d series"
 msgid_plural "%d series"
 msgstr[0] "%d serie"
 msgstr[1] "%d series"
 
-#: usr/lib/hypnotix/hypnotix.py:727
+#: usr/lib/hypnotix/hypnotix.py:1152
 msgid "Edit"
 msgstr "Bewerken"
 
-#: usr/lib/hypnotix/hypnotix.py:737
+#: usr/lib/hypnotix/hypnotix.py:1162
+msgid "Clear icon cache"
+msgstr "Tijdelijke pictogramopslag wissen"
+
+#: usr/lib/hypnotix/hypnotix.py:1172
 msgid "Remove"
 msgstr "Verwijderen"
 
-#: usr/lib/hypnotix/hypnotix.py:825
+#: usr/lib/hypnotix/hypnotix.py:1279
 msgid "M3U Playlists"
 msgstr "M3U-afspeellijsten"
 
-#: usr/lib/hypnotix/hypnotix.py:932 generate_desktop_files:24
-#: usr/share/hypnotix/hypnotix.ui.h:2
+#: usr/lib/hypnotix/hypnotix.py:1477 generate_desktop_files:25
+#: usr/share/hypnotix/hypnotix.ui.h:42
 msgid "Watch TV"
 msgstr "TV kijken"
 
-#: usr/share/hypnotix/hypnotix.ui.h:3
-msgid "Fullscreen"
-msgstr "Schermvullend"
+#: usr/lib/hypnotix/hypnotix.py:1545
+msgid "Loading providers..."
+msgstr "Aanbieders laden..."
 
-#: usr/share/hypnotix/hypnotix.ui.h:6
+#: usr/lib/hypnotix/hypnotix.py:1558
+msgid "Downloading playlist..."
+msgstr "Speellijst binnenhalen..."
+
+#: usr/lib/hypnotix/hypnotix.py:1560
+msgid "Getting playlist..."
+msgstr "Speellijst verkrijgen..."
+
+#: usr/lib/hypnotix/hypnotix.py:1563
+msgid "Checking playlist..."
+msgstr "Speellijst nakijken..."
+
+#: usr/lib/hypnotix/hypnotix.py:1565
+msgid "Loading channels..."
+msgstr "Kanalen laden..."
+
+#: usr/lib/hypnotix/hypnotix.py:1573
+#, python-format
+msgid "Failed to download playlist from %s"
+msgstr "Kon geen speellijst binnenhalen vanuit %s"
+
+#: usr/share/hypnotix/hypnotix.ui.h:1
+msgid "Create a new channel"
+msgstr "Een nieuw kanaal aanmaken"
+
+#: usr/share/hypnotix/hypnotix.ui.h:5
 msgid "MPV Options"
 msgstr "MPV-opties"
 
-#: usr/share/hypnotix/hypnotix.ui.h:7
+#: usr/share/hypnotix/hypnotix.ui.h:6
 msgid "List of MPV options"
 msgstr "Lijst van MPV-opties"
 
-#: usr/share/hypnotix/hypnotix.ui.h:8
+#: usr/share/hypnotix/hypnotix.ui.h:7
 msgid "Playback"
 msgstr "Afspelen"
 
-#: usr/share/hypnotix/hypnotix.ui.h:9
+#: usr/share/hypnotix/hypnotix.ui.h:8
 msgid "User Agent"
 msgstr "Gekoppeld programma"
 
-#: usr/share/hypnotix/hypnotix.ui.h:10
+#: usr/share/hypnotix/hypnotix.ui.h:9
 msgid "Referrer"
 msgstr "Doorverwijzer"
 
-#: usr/share/hypnotix/hypnotix.ui.h:11
+#: usr/share/hypnotix/hypnotix.ui.h:10
 msgid "Network"
 msgstr "Netwerk"
 
+#: usr/share/hypnotix/hypnotix.ui.h:11
+msgid "System version:"
+msgstr "Systeemversie:"
+
 #: usr/share/hypnotix/hypnotix.ui.h:12
+msgid ""
+"If Youtube channels stop working you can switch to a local version of yt-dlp "
+"and update it using the button above."
+msgstr ""
+"Indien YouTubekanalen ophouden te werken, kunt u overschakelen naar een "
+"geïnstalleerde versie van yt-dlp en het bijwerken met bovenstaande knop."
+
+#: usr/share/hypnotix/hypnotix.ui.h:13
+msgid "Local version:"
+msgstr "Geïnstalleerde versie:"
+
+#: usr/share/hypnotix/hypnotix.ui.h:14
+msgid "Update from github.com/yt-dlp"
+msgstr "Bijwerken vanuit github.com/yt-dlp"
+
+#: usr/share/hypnotix/hypnotix.ui.h:15
+msgid "Restart Hypnotix for changes to take effect."
+msgstr "Herstart Hypnotix om de wijzigingen van kracht te laten worden."
+
+#: usr/share/hypnotix/hypnotix.ui.h:16
+msgid "Use local version"
+msgstr "Geïnstalleerde versie gebruiken"
+
+#: usr/share/hypnotix/hypnotix.ui.h:17
+msgid "Youtube"
+msgstr "YouTube"
+
+#: usr/share/hypnotix/hypnotix.ui.h:18
 msgid "Add a new provider..."
 msgstr "Voeg een nieuwe aanbieder toe..."
 
-#: usr/share/hypnotix/hypnotix.ui.h:13
+#: usr/share/hypnotix/hypnotix.ui.h:19
 msgid "Reset to defaults..."
 msgstr "Terugzetten op standaardwaarden..."
 
-#: usr/share/hypnotix/hypnotix.ui.h:14
+#: usr/share/hypnotix/hypnotix.ui.h:20
 msgid "Name:"
 msgstr "Naam:"
 
-#: usr/share/hypnotix/hypnotix.ui.h:15
+#: usr/share/hypnotix/hypnotix.ui.h:21
 msgid "URL:"
 msgstr "Webadres:"
 
-#: usr/share/hypnotix/hypnotix.ui.h:16
+#: usr/share/hypnotix/hypnotix.ui.h:22
 msgid "Path:"
 msgstr "Pad:"
 
-#: usr/share/hypnotix/hypnotix.ui.h:17
+#: usr/share/hypnotix/hypnotix.ui.h:23
 msgid "Cancel"
 msgstr "Afbreken"
 
-#: usr/share/hypnotix/hypnotix.ui.h:18
+#: usr/share/hypnotix/hypnotix.ui.h:24
 msgid "OK"
 msgstr "Oké"
 
-#: usr/share/hypnotix/hypnotix.ui.h:19
+#: usr/share/hypnotix/hypnotix.ui.h:25
 msgid "Username:"
 msgstr "Gebruikersnaam:"
 
-#: usr/share/hypnotix/hypnotix.ui.h:20
+#: usr/share/hypnotix/hypnotix.ui.h:26
 msgid "Password:"
 msgstr "Wachtwoord:"
 
-#: usr/share/hypnotix/hypnotix.ui.h:21
+#: usr/share/hypnotix/hypnotix.ui.h:27
 msgid "Browse..."
 msgstr "Verkennen..."
 
-#: usr/share/hypnotix/hypnotix.ui.h:22
+#: usr/share/hypnotix/hypnotix.ui.h:28
 msgid "EPG:"
 msgstr "EPG:"
 
-#: usr/share/hypnotix/hypnotix.ui.h:23
+#: usr/share/hypnotix/hypnotix.ui.h:29
 msgid "Type:"
 msgstr "Soort:"
 
-#: usr/share/hypnotix/hypnotix.ui.h:24
+#: usr/share/hypnotix/hypnotix.ui.h:30
 msgid "Are you sure you want to delete this provider?"
 msgstr "Weet u zeker dat u deze aanbieder wilt verwijderen?"
 
-#: usr/share/hypnotix/hypnotix.ui.h:25
+#: usr/share/hypnotix/hypnotix.ui.h:31
 msgid "No"
 msgstr "Nee"
 
-#: usr/share/hypnotix/hypnotix.ui.h:26
+#: usr/share/hypnotix/hypnotix.ui.h:32
 msgid "Yes"
 msgstr "Ja"
 
-#: usr/share/hypnotix/hypnotix.ui.h:27
+#: usr/share/hypnotix/hypnotix.ui.h:33
 msgid "Are you sure you want to reset to the default providers?"
 msgstr "Weet u zeker dat u alles wilt terugzetten op de standaardaanbieders?"
 
-#: usr/share/hypnotix/hypnotix.ui.h:28
+#: usr/share/hypnotix/hypnotix.ui.h:34
+msgid "Logo URL:"
+msgstr "Webadres van logo:"
+
+#: usr/share/hypnotix/hypnotix.ui.h:35
+msgid "This channel will be added to your favorites."
+msgstr "Dit kanaal zal worden toegevoegd aan uw favorieten."
+
+#: usr/share/hypnotix/hypnotix.ui.h:36
+msgid ""
+"Note: If the logo is a local file, upload it to imgur.com to get a URL."
+msgstr ""
+"Let op: als het logo een plaatselijk bestand is, stuur het dan op naar "
+"imgur.com om een webadres te verkrijgen."
+
+#: usr/share/hypnotix/hypnotix.ui.h:37
 msgid "Currently playing:"
 msgstr "Thans aan het afspelen:"
 
-#: usr/share/hypnotix/hypnotix.ui.h:29
+#: usr/share/hypnotix/hypnotix.ui.h:38
 msgid "Show"
 msgstr "Tonen"
 
-#: usr/share/hypnotix/hypnotix.ui.h:30
+#: usr/share/hypnotix/hypnotix.ui.h:39
 msgid "Pause"
 msgstr "Pauzeren"
 
-#: usr/share/hypnotix/hypnotix.ui.h:31
+#: usr/share/hypnotix/hypnotix.ui.h:40
 msgid "Stop"
 msgstr "Stilzetten"
+
+#: usr/share/hypnotix/hypnotix.ui.h:43
+msgid "Fullscreen"
+msgstr "Schermvullend"
+
+#: usr/share/hypnotix/hypnotix.ui.h:44 usr/share/hypnotix/shortcuts.ui.h:6
+msgid "Search"
+msgstr "Zoeken"
+
+#: usr/share/hypnotix/hypnotix.ui.h:48
+msgid "Video"
+msgstr "Beeld"
+
+#: usr/share/hypnotix/hypnotix.ui.h:50
+msgid "Audio"
+msgstr "Geluid"
 
 #: usr/share/hypnotix/shortcuts.ui.h:1
 msgid "Main shortcuts"
 msgstr "Voornaamste sneltoetsen"
 
-#: usr/share/hypnotix/shortcuts.ui.h:2
+#: usr/share/hypnotix/shortcuts.ui.h:4
+msgid "Play previous/next channel"
+msgstr "Speel vorig/volgend kanaal af"
+
+#: usr/share/hypnotix/shortcuts.ui.h:5
 msgid "Toggle Fullscreen"
 msgstr "Volledig scherm aan/uit"
+
+#: usr/share/hypnotix/shortcuts.ui.h:8
+msgid "Reload all providers"
+msgstr "Alle aanbieders herladen"

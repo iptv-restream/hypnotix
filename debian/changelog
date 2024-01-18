@@ -1,3 +1,304 @@
+hypnotix (4.3) virginia; urgency=medium
+
+  * l10n: Update translations
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu, 04 Jan 2024 16:38:06 +0000
+
+hypnotix (4.2) virginia; urgency=medium
+
+  [ Michael Webster ]
+  * Use filled and unfilled star icons for favorites.
+
+ -- Clement Lefebvre <root@linuxmint.com>  Wed, 06 Dec 2023 12:16:39 +0000
+
+hypnotix (4.1) virginia; urgency=medium
+
+  * l10n: Update translations
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sun, 03 Dec 2023 14:58:52 +0000
+
+hypnotix (4.0) virginia; urgency=medium
+
+  [ Clement Lefebvre ]
+  * README: Add dep on circle-flags
+  * UI: Use a symbolic icon for stream information menu item
+  * UI: Refresh interface
+  * yt-dlp: Add the ability to switch to a local version and update it
+  * launcher: Use $HOME instead of ~
+  * Add .gitignore
+  * Add the ability to set channels as favorite
+  * Fix back button when no provider is selected
+  * Fix favorites after browsing films/VOD
+  * Fix indentation
+  * Fix error when provider is None
+  * Favorites: Fix navigation issues in niche cases
+  * Add the ability to create custom channels
+  * l10n: Update POT
+
+  [ TVKaista ]
+  * Fix flag of Macau (#307)
+
+  [ DYefremov ]
+  * forced utf-8 enabled for playlist read/write (#298)
+  * Fix: URL label enlarges (#297)
+
+  [ Clement Lefebvre ]
+  * Fix headerbar subtitle in channels page
+
+ -- Clement Lefebvre <root@linuxmint.com>  Wed, 29 Nov 2023 14:04:36 +0000
+
+hypnotix (3.7) faye; urgency=medium
+
+  * Get flags from circles-flags-svg
+  * Depend on yt-dlp
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu, 21 Sep 2023 14:29:39 +0100
+
+hypnotix (3.6) faye; urgency=medium
+
+  [ cute-sakura ]
+  * debian/control: add libmpv2 (#287)
+  * debian/control: recommend yt-dlp (#288)
+
+  [ Niclas Thall ]
+  * fix: ensure word is in the list (#290)
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sun, 20 Aug 2023 15:16:32 +0200
+
+hypnotix (3.5) victoria; urgency=medium
+
+  * l10n: Update translations
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 07 Jul 2023 16:57:04 +0200
+
+hypnotix (3.4) vera; urgency=medium
+
+  [ Clement Lefebvre ]
+  * l10n: Update POT
+
+  [ Michael Webster ]
+  * Update xapp version in README, use real release version in debian/ control.
+
+  [ Clement Lefebvre ]
+  * l10n: Update translations
+  * l10n: Update files
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu, 08 Jun 2023 11:39:40 +0100
+
+hypnotix (3.3) victoria; urgency=medium
+
+  [ Bruno Cabral ]
+  * Lint changes (#251)
+
+  [ DYefremov ]
+  * Added shortcuts support to zap through channels (#232)
+
+  [ Peter Dave Hello ]
+  * Add zh_TW Traditional Chinese locale (#275)
+
+  [ Clement Lefebvre ]
+  * Dark mode: Delegate to libxapp
+  * gsettings: Remove prefer-dark-mode
+  * Fix dark mode support
+  * l10n: Update POT
+
+  [ Michael Webster ]
+  * Add xapp to workflow.
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 05 Jun 2023 13:44:28 +0100
+
+hypnotix (3.2) vera; urgency=medium
+
+  [ DYefremov ]
+  * fixed work with API ver. 2 (#254)
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 06 Jan 2023 16:36:05 +0000
+
+hypnotix (3.1) vanessa; urgency=medium
+
+  * l10n: Update translations
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 02 Dec 2022 17:26:23 +0000
+
+hypnotix (3.0) vera; urgency=medium
+
+  [ Michael Webster ]
+  * Add github workflow.
+
+  [ woxcab ]
+  * Fix error when the Content-Length header is missing (#241)
+
+  [ Dmitriy Yefremov ]
+  * Fixed disabling osc via MPV options (#240) (#242)
+
+  [ fire-hawk-86 ]
+  * Update common.py (#244)
+
+  [ atzlinux ]
+  * d/control: Depends:  add python3-requests
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 21 Nov 2022 11:47:43 +0000
+
+hypnotix (2.9) vanessa; urgency=medium
+
+  * l10n: Update translations
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sun, 24 Jul 2022 12:13:16 +0200
+
+hypnotix (2.8) vanessa; urgency=medium
+
+  * l10n: Update translations
+  * l10n: Update files
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sun, 26 Jun 2022 15:52:38 +0200
+
+hypnotix (2.7) vanessa; urgency=medium
+
+  [ Carmina16 ]
+  * Mark missed strings for translatrion (#212)
+
+  [ lulol ]
+  * Make non translatable strings translatable #208 (#209)
+
+  [ Azureit ]
+  * Use XWayland as a workaround for Wayland support. (#205)
+
+  [ Arkadiy Illarionov ]
+  * Save providers to ~/.cache (#220)
+
+  [ AboBier ]
+  * Fix XTream API (#203)
+
+  [ lulol ]
+  * Show feedback in the status bar when search has no results (#210)
+
+  [ Claudio Olmi ]
+  * Improvements for XTream API (#217)
+
+  [ lulol ]
+  * Add widget tooltips with channel name (#228)
+
+  [ Clement Lefebvre ]
+  * Switch icon list-edit-symbolic -> xapp-edit-symbolic
+  *  Add 'Clear icon cache' button for provider #230
+
+  [ Arkadiy Illarionov ]
+  * Optimize imports (#231)
+
+  [ Clement Lefebvre ]
+  * l10n: Update POT
+
+ -- Clement Lefebvre <root@linuxmint.com>  Wed, 15 Jun 2022 17:41:13 +0200
+
+hypnotix (2.6) una; urgency=medium
+
+  * l10n: Update translations
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 31 Dec 2021 12:43:52 +0000
+
+hypnotix (2.5) una; urgency=medium
+
+  [ Jonathon ]
+  * Fix symlink target for irak.svg (#187)
+
+  [ Clement Lefebvre ]
+  * Fix channels when no groups are present
+  * UI: Fix symbolic icon name
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 31 Dec 2021 12:03:09 +0000
+
+hypnotix (2.4) una; urgency=medium
+
+  [ Michael Webster ]
+  * Use simpler country emblems.
+  * Fix some hidpi issues, increase initial window height to accomodate larger country badges.
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu, 16 Dec 2021 10:16:16 +0000
+
+hypnotix (2.3) una; urgency=medium
+
+  [ Claudio Olmi ]
+  * Relaxing channel name check in Xtream API (#178)
+
+  [ Brenders ]
+  * Series: Fix parsing of episodes which name isn't a number (#180)
+
+ -- Clement Lefebvre <root@linuxmint.com>  Wed, 08 Dec 2021 15:25:28 +0000
+
+hypnotix (2.2) una; urgency=medium
+
+  * l10n: Update translations
+  * l10n: Update files
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 06 Dec 2021 15:33:32 +0000
+
+hypnotix (2.1) una; urgency=medium
+
+  [ lulol ]
+  * Add a basic global search box (#157)
+
+  [ Clement Lefebvre ]
+  * Add support for dark GTK theme variants
+
+  [ Kira ]
+  * Packaging: Depend on python3-unidecode (#166)
+
+  [ lulol ]
+  * Avoid race condition playing local content (#172)
+  * Search: Use a toggle button and simple fixes (#165)
+
+  [ Claudio Olmi ]
+  * Add support for XTream API (#148)
+
+  [ Clement Lefebvre ]
+  * l10n: Rename search entry text
+  * Fix debug print calls
+  * Delete trailing spaces
+  * Add more badges
+  * Search: grab focus, don't show menu item
+  * l10n: Update POT
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 23 Nov 2021 12:23:08 +0000
+
+hypnotix (2.0) uma; urgency=medium
+
+  * Fix slovenian flag
+
+ -- Clement Lefebvre <root@linuxmint.com>  Wed, 14 Jul 2021 14:45:08 +0100
+
+hypnotix (1.9) uma; urgency=medium
+
+  * l10n: Update translations
+  * l10n: Generate files
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 25 Jun 2021 14:35:15 +0100
+
+hypnotix (1.8) uma; urgency=medium
+
+  * l10n: Update POT
+  * packaging: Recommend youtube-dl
+  * l10n: Update translations
+  * l10n: Generate files
+
+ -- Clement Lefebvre <root@linuxmint.com>  Wed, 09 Jun 2021 16:03:34 +0100
+
+hypnotix (1.7) uma; urgency=medium
+
+  [ Clement Lefebvre ]
+  * README: Add a section for Wayland
+
+  [ NikoKrause ]
+  * Highlight selected TV channel (#134)
+
+  [ hcombination ]
+  * Add menu option to display stream information (#138)
+
+  [ Clement Lefebvre ]
+  * Improve badges
+  * l10n: Update POT
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu, 03 Jun 2021 19:19:57 +0100
+
 hypnotix (1.6) ulyssa; urgency=medium
 
   * Switch default provider from Free-IPTV to Free-TV
